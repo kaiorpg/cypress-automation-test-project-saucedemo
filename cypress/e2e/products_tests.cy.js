@@ -1,10 +1,10 @@
 /// <reference types= "cypress"/>
-import LoginPage from '../pages/LoginPage.js';
+import LoginPage from '../pages/loginPage.js';
 
 describe('Visualização dos produtos', () => {
     const loginPage = new LoginPage();
+
     it('Login com o usuario standard', () => {
-        
         //Login utilizando Page Objects para demonstrar o uso
         loginPage.visit();
         loginPage.fillUsername('standard_user');
