@@ -17,5 +17,11 @@ describe('Login Tests', () => {
         cy.get('[data-test="error"]').should('be.visible');
       }
     });
+    it('Teste de Logout', () => {
+      cy.loginAsStandardUser();
+      cy.get('.bm-burger-button > button').click();
+      cy.get('#logout_sidebar_link').click();
+      cy.url().should('eq', 'https://www.saucedemo.com/v1/index.html');
+    });
   });
 })
