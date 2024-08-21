@@ -1,1 +1,6 @@
+# Node.js
 node_modules/
+
+# Cypress
+allure-report/
+allure-results/
