@@ -53,6 +53,11 @@
   <p>Para executar os testes diretamente no terminal, utilize:</p>
   <pre><code>npx cypress run</code></pre>
 
+  <h2>Allure Reports</h2>
+  <p>Este projeto utiliza o <strong>Allure Reports</strong> para gerar relatórios detalhados dos testes executados. Para gerar e visualizar o relatório, utilize o seguinte comando:</p>
+  <pre><code>npm run test:allure</code></pre>
+  <p>Este comando executa os testes e em seguida gera o relatório Allure, que será aberto automaticamente no navegador.</p>
+
   <h2>Estrutura dos Testes</h2>
   <p>O projeto está organizado utilizando o conceito de Page Objects, o que facilita a manutenção e a escalabilidade dos testes. Cada página da aplicação tem uma classe correspondente em <code>cypress/pages</code> que encapsula a interação com a UI.</p>
 
@@ -64,7 +69,6 @@
 
   <h2>Contribuição</h2>
   <p>Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma sugestão, sinta-se à vontade para abrir uma issue ou enviar um pull request.</p>
-
 
   <h2>Contato</h2>
   <p>Para qualquer dúvida ou sugestão, entre em contato:</p>
